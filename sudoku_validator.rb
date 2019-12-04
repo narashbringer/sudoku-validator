@@ -47,7 +47,8 @@ class SudokuValidator
     if temp == false
       return false
     end
-      # squares blocks row group 2 from the diagram above
+    
+    # squares blocks row group 2 from the diagram above
     temp = validate_block(str,0,3,4,7)
     if temp == false
       return false
@@ -93,6 +94,7 @@ class SudokuValidator
     if temp==false
       return false
     end
+
     return true
   end
 
